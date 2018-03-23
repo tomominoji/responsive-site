@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+.text-center {
+  text-align: center; }
+
+header {
+  width: 100%;
+  height: 250px;
+  background-image: url('/images/../images/lesson7-photo.jpg');
+  background-size: cover;
+  text-shadow: 5px 5px 10px #8DE8E2;
+  color: white;
+  font-weight: bold; }
+  header .header-logo {
+    font-size: 40px;
+    padding-left: 15px; }
+  header h1 {
+    font-size: 30px;
+    padding-left: 15px;
+    margin-bottom: 100px; }
+  header p {
+    font-size: 22px;
+    float: right;
+    padding-right: 10px; }
+
+@media (min-width: 769px) {
+  header {
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/lesson7-photo.jpg");
+    background-size: cover;
+    text-shadow: 5px 5px 10px #8DE8E2;
+    color: white;
+    font-weight: bold; }
+    header .header-logo {
+      font-size: 52px;
+      padding-left: 25px; }
+    header h1 {
+      font-size: 42px;
+      padding-left: 25px;
+      margin-bottom: 260px; }
+    header p {
+      font-size: 26px;
+      float: right;
+      padding-right: 22px; } }
+main {
+  width: auto;
+  margin: 0px 10px; }
+  main .home {
+    border: 2px solid #F2EF83;
+    margin-bottom: 10px; }
+  main h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px; }
+  main h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px; }
+  main p {
+    font-size: 14px;
+    padding: 5px; }
+
+@media (min-width: 769px) {
+  main {
+    width: auto; }
+    main .box {
+      display: flex; }
+    main .home {
+      width: 33%;
+      border: 2px solid #F2EF83;
+      margin: 0px 5px 30px 5px;
+      -webkit-flex-direction: row;
+      flex-direction: row; }
+    main h1 {
+      font-size: 26px;
+      font-weight: bold;
+      padding: 5px; }
+    main h2 {
+      font-size: 22px;
+      font-weight: bold;
+      padding: 5px; }
+    main p {
+      font-size: 18px;
+      padding: 5px; } }
+footer {
+  width: 100%;
+  height: 70px;
+  color: #fff;
+  background-color: #8DE8E2; }
+  footer .contact {
+    font-weight: bold;
+    padding-top: 10px; }
+  footer .btn {
+    text-align: center;
+    padding: 5px 30px;
+    color: #fff;
+    background-color: #F2EF83;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    width: 80px; }
+
+/*# sourceMappingURL=style.css.map */
